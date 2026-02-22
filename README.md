@@ -3,10 +3,13 @@
 ## Overview
 Traditional tracking methods for marine animals, such as attaching transmitters, are often invasive, expensive, and difficult to scale. This project seeks to develop an AI-powered image recognition tool that can identify individual manatees based on distinctive scars, tail patterns, and skin markings. Using deep learning and generative AI, images will be processed into consistent sketches that highlight each animal’s unique features. These will be converted into numerical vectors and stored as digital IDs, along with time-stamped and geo-tagged metadata, that can be used to identify and track manatees needed to inform their conservation and population health.
 
+> [!NOTE] 
+> The [pytorch-mask-rcnn](pytorch-mask-rcnn) folder is cloned from the [multimodallearning](https://github.com/multimodallearning/pytorch-mask-rcnn) community. While the model is 8-9 years old the folder contains good documentation and images for model testing. 
+
 ## Current Updates & Goals
 - Using Pytorch [Mask R-CNN](https://docs.pytorch.org/vision/stable/models/mask_rcnn.html) which is based on a Computer Vision and Pattern Recognition [paper](https://arxiv.org/abs/1703.06870)
 - Looking into how the model works and what some basic outputs are.
-- First outputs on pre-trained model ![first demo](figures/demo_fig_01.png)
+- First outputs on pre-trained model ![first demo](Figures/demo_fig_01.png)
 - Learn more about using Mask R-CNN for instance segmentation and identification of manatees.
 
 
